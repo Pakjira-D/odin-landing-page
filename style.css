@@ -4,7 +4,7 @@ body {
     /* margin: auto; */
     font-family: 'Roboto';
     background-color: #1F2937;
-    /* min-width: 600px; */
+    min-width: 500px;
 }
 
 .header{
@@ -83,11 +83,14 @@ button{
 .first-section-img{
     position: relative;
     text-align: end;
+    height: 250px;
     /* background-color: #F9FAF8; */
 }
 
-img{
-    width: 80%;
+.first-section-img > img{
+    width: 75%;
+    height: 100%;
+    flex: 1 1 auto;
 }
 
 .image-placeholder{
