@@ -114,20 +114,21 @@ position: absolute;
     align-items: center;
     gap: 5%;
     background-color: white;
+    padding:0 20%;
 }
 
 .info-header{
-    padding-top: 3%;
+    padding-top: 5%;
     font-size: 36px;
     font-weight: 900;
     color: #1F2937;
+    text-align: center;
 
 }
 
 .container{
     display: flex;
-    padding:0px 20%;
-    height:170px;
+    height:150px;
     gap: 5%;
 }
 
@@ -138,7 +139,7 @@ position: absolute;
 
 .box{
     width: 90%;
-    height: 80%;
+    height: 100%;
     border: #3882F6 solid 4px;
     border-radius: 10px;
 }
@@ -148,4 +149,12 @@ position: absolute;
     width: 90%;
     text-align: center;
     color: rgb(94, 93, 93);
+}
+
+.section.third{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5%;
+    background-color: #E5E7EB;
 }
