@@ -15,7 +15,8 @@ body {
 }
 
 .header-bar{
-    width: 70%;
+    width: 100%;
+    padding: 0 10%;
     display: flex;
     justify-content: space-between;
     align-items: center
@@ -52,10 +53,13 @@ ul{
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 5%;
 }
 
 .first-section-left{
-    width:35%;
+    /* width:35%; */
+    padding-left:10%;
+    flex: 1;
 }
 
 .hero-main-text{
@@ -77,7 +81,9 @@ button{
 }
 
 .first-section-right{
-    width:35%;
+    /* width:35%; */
+    padding-right:10%;
+    flex: 1;
 }
 
 .first-section-img{
@@ -88,15 +94,15 @@ button{
 }
 
 .first-section-img > img{
-    width: 75%;
     height: 100%;
-    flex: 1 1 auto;
+    width: 100%;
 }
 
 .image-placeholder{
+    text-align: center;
 position: absolute;
   top: 50%;
-  left: 60%;
+  left: 50%;
   transform: translate(-50%, -50%);
   font-size: 18px;
   color: #E5E7EB;
