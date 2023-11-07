@@ -31,7 +31,7 @@ ul{
 .logo{
     font-size: 24px;
     color: #E5E7EB;
-    font-weight: 900;
+    font-weight: 800;
 }
 
 .header-link-text, .hero-secondary-text{
@@ -65,7 +65,7 @@ ul{
 .hero-main-text{
     font-size: 48px;
     color: #F9FAF8;
-    font-weight: 900;
+    font-weight: 800;
     margin: 0px;
     padding: 0px;
 }
@@ -120,7 +120,7 @@ position: absolute;
 .info-header{
     padding-top: 5%;
     font-size: 36px;
-    font-weight: 900;
+    font-weight: 800;
     color: #1F2937;
     text-align: center;
 
@@ -154,7 +154,27 @@ position: absolute;
 .section.third{
     display: flex;
     flex-direction: column;
-    align-items: center;
+    justify-content: center;
     gap: 5%;
     background-color: #E5E7EB;
+    padding:0 20%;
+}
+
+.quote-text{
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    justify-content: center;
+    font-weight: 300;
+    padding: 0px;
+    margin: 0px;
+}
+
+.quote-writer{
+    padding: 20px 0px;
+    margin: 0px;
+    font-size: 24px;
+    color: #1F2937;
+    text-align: end;
+    font-weight: 700;
 }
