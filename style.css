@@ -8,7 +8,6 @@ body {
 }
 
 .header{
-    
     display: flex;
     width: 100%;
     justify-content: center;
@@ -177,4 +176,60 @@ position: absolute;
     color: #1F2937;
     text-align: end;
     font-weight: 700;
+}
+
+.section.fourth{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5%;
+    background-color: white;
+    padding:0 20%;
+}
+
+.container-call-action{
+    width: 100%;
+    height: 200px;
+    padding: 0px 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882F6;
+    border-radius: 10px;
+}
+
+.title-call-action, .subtext-call-action{
+    margin: 0px;
+    padding: 0px;
+}
+
+.title-call-action{
+    color: white;
+}
+
+.subtext-call-action{
+    padding-top: 5px;
+    color: #E5E7EB;
+}
+
+.btn-call-action{
+    border: #F9FAF8 solid;
+}
+
+footer{
+    width: 100%;
+    
+}
+
+.footer-text{
+    color: #E5E7EB;
+    margin: 20px auto;
+    padding:  auto;
+    text-align: center;
+}
+
+a{
+    color: #3882F6;
+    text-decoration: none;
 }
